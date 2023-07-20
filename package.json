@@ -1,0 +1,23 @@
+{
+  "author": "Colin DAMON",
+  "license": "Apache-2.0",
+  "name": "ts-kata",
+  "version": "1.0.0",
+  "description": "TypeScript kata template",
+  "scripts": {
+    "test": "vitest --",
+    "eslint": "eslint './**/*.{ts,js}' --fix"
+  },
+  "devDependencies": {
+    "vite": "^4.3.9",
+    "vitest": "^0.31.4",
+    "eslint": "^8.42.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.2.1",
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.3"
+  }
+}
