@@ -15,8 +15,3 @@ export const isLeap = (year: number): boolean => {
 const multipleOfChecker = (year: number) => (divider: number) => {
   return year % divider === 0;
 };
-
-enum Year {
-  leap,
-  notleap,
-}
